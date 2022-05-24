@@ -4,7 +4,7 @@ import {withStyles} from "@material-ui/core/styles/index";
 import sendRequest, {getCurrentUser} from '../../Request';
 import {connect} from 'react-redux';
 import {notify} from 'react-notify-toast';
-import {confirmAlert} from "react-confirm-alert/index";
+import {confirmAlert} from "react-confirm-alert";
 import Dialog from "@material-ui/core/Dialog/index";
 import DialogTitle from "@material-ui/core/DialogTitle/index";
 import DialogContent from "@material-ui/core/DialogContent/index";

@@ -3,7 +3,7 @@ import {Button, Container, Grid, TextField, Typography, withStyles} from '@mater
 import GTA from "../../assets/images/maleIcon.png";
 import sendRequest, {deleteToken, getCurrentUser, sendRequestWithHeader, setCookie, tokenHeaderName} from '../../Request';
 import {notify} from 'react-notify-toast';
-import {confirmAlert} from "react-confirm-alert/index";
+import {confirmAlert} from "react-confirm-alert";
 import Alert from "react-popup-alert";
 
 

@@ -5,9 +5,9 @@ import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import {withStyles} from "@material-ui/core/styles/index";
 import LOGO1 from '../../assets/images/white_logo_transparent_background.png';
 import Searchbar from './SearchBar.jsx';
-import {confirmAlert} from 'react-confirm-alert/index';
+import {confirmAlert} from 'react-confirm-alert';
 import 'react-confirm-alert/src/react-confirm-alert.css';
-import sendRequest, {deleteToken, getCurrentUser} from "../Request";
+import sendRequest, {deleteToken, getCurrentUser} from "../../Request";
 import {notify} from 'react-notify-toast';
 
 

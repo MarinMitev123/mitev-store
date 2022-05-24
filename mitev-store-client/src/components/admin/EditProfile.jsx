@@ -3,7 +3,7 @@ import {Button, Container, Grid, TextField, Typography, withStyles} from '@mater
 import GTA from "../../assets/images/maleIcon.png";
 import sendRequest, {getCurrentUser, sendRequestWithHeader, setCookie, tokenHeaderName} from '../../Request';
 import {notify} from 'react-notify-toast';
-import {confirmAlert} from "react-confirm-alert/index";
+import {confirmAlert} from "react-confirm-alert";
 import FormControl from "@material-ui/core/FormControl/index";
 import InputLabel from "@material-ui/core/InputLabel/index";
 import Select from "@material-ui/core/Select/index";
